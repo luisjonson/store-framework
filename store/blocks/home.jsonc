@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [ 
-      "flex-layout.row",
+      "flex-layout.row"
       // "info-card#button-right",
       //  "info-card#button-left"
       ]
@@ -39,7 +39,7 @@
   //   }
   // },
   "flex-layout.row":{
-    "childre":[
+    "flex-layout.col":[
     "image#electronics",
     "image#major-appliance"
     ]
