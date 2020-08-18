@@ -2,8 +2,8 @@
   "store.home": {
     "blocks": [ 
       "flex-layout.row",
-      "info-card#button-right",
-       "info-card#button-left"
+      // "info-card#button-right",
+      //  "info-card#button-left"
       ]
   },
 
