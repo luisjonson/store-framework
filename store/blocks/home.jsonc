@@ -1,11 +1,11 @@
 {
-  // "store.home": {
-  //   "blocks": [ 
-  //     "flex-layout.row"
-  //     // "info-card#button-right",
-  //     //  "info-card#button-left"
-  //     ]
-  // },
+  "store.home": {
+    "blocks": [ 
+      "flex-layout.row"
+      // "info-card#button-right",
+      //  "info-card#button-left"
+      ]
+  },
 
   
   // "info-card#button-right": {
@@ -39,7 +39,7 @@
   //   }
   // },
   "flex-layout.row":{
-    "flex-layout.col":[
+    "children":[
     "image#electronics",
     "image#major-appliance"
     ]
