@@ -40,7 +40,7 @@
   },
   "flex-layout.row":{
     "children":[
-      
+    "info-card#rethink",
     "flex-layout.col"    
     ]
   },
@@ -62,5 +62,16 @@
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
       "maxWidth": "100%"
     }
+  },
+
+  "info-card#rethink": {
+    "props": {
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
+      "isFullModeStyle": true,
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
+      "textPosition": "center"
+    }
   }
+  
 }
