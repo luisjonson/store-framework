@@ -40,11 +40,17 @@
   },
   "flex-layout.row":{
     "children":[
-    "image#electronics",
-    "image#major-appliance"
+      
+    "flex-layout.col"    
     ]
   },
 
+"flex-layout.col":{
+  "children":[
+    "image#electronics",
+    "image#major-appliance"
+  ]
+},
   "image#electronics": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
