@@ -1,13 +1,4 @@
-{
-  "store.home": {
-    "blocks": [ 
-     
-      "info-card#button-right",
-      "info-card#button-left", 
-      "flex-layout.row",
-      "shelf"
-      ]
-  }, 
+{ 
   
   "info-card#button-right": {
     "props": {
