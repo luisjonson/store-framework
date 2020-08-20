@@ -3,11 +3,11 @@
     "blocks": [ 
      
       "info-card#button-right",
-       "info-card#button-left", "flex-layout.row",
-       "self"
+      "info-card#button-left", 
+      "flex-layout.row",
+      "self"
       ]
-  },
-
+  }, 
   
   "info-card#button-right": {
     "props": {
@@ -73,6 +73,24 @@
       "callToActionText": "Discover",
       "textPosition": "center"
     }
-  }  
+  },
+
+  "shelf": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 1,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+      
+        "titleText": "Top sellers"
+      }
+    }
+  }
   
 }
