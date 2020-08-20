@@ -1,0 +1,76 @@
+{
+    "slider-layout#home": {
+    "children": [
+        "info-card#1",
+        "info-card#2",
+        "info-card#3",
+        "info-card#4",
+        "info-card#5",
+        "info-card#6"
+
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    }
+  },
+  
+  "info-card#1": {
+    "props": {
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  
+  "info-card#2": {
+    "props": {
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+      },
+    "info-card#3": {
+        "props": {
+          "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png",
+          "isFullModeStyle": true,
+          "headline": "Black Friday",
+          "callToActionText": "Subscribe",
+          "textPosition": "center"
+        }
+      },
+    "info-card#4": {
+        "props": {
+          "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
+          "isFullModeStyle": true,
+          "headline": "Black Friday",
+          "callToActionText": "Subscribe",
+          "textPosition": "center"
+        }
+      },
+    "info-card#5": {
+        "props": {
+          "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png",
+          "isFullModeStyle": true,
+          "headline": "Black Friday",
+          "callToActionText": "Subscribe",
+          "textPosition": "center"
+        }
+    },
+    "info-card#6": {
+        "props": {
+          "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
+          "isFullModeStyle": true,
+          "headline": "Black Friday",
+          "callToActionText": "Subscribe",
+          "textPosition": "center"
+        }
+    }  
+
+}
