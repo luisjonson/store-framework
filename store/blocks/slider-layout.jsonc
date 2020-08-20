@@ -1,12 +1,12 @@
 {
     "slider-layout#home": {
     "children": [
-        "info-card#1",
-        "info-card#2",
-        "info-card#3",
-        "info-card#4",
-        "info-card#5",
-        "info-card#6"
+        "image#brand1",
+        "image#brand2",
+        "image#brand3",
+        "image#brand4",
+        "image#brand5",
+        "image#brand6"
 
     ],
     "props": {
@@ -17,60 +17,45 @@
     }
   },
   
-  "info-card#1": {
+  "image#brand1": {
     "props": {
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
-      "isFullModeStyle": true,
-      "headline": "Black Friday",
-      "callToActionText": "Subscribe",
-      "textPosition": "center"
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
     }
-  },
-  
-  "info-card#2": {
-    "props": {
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png",
-      "isFullModeStyle": true,
-      "headline": "Black Friday",
-      "callToActionText": "Subscribe",
-      "textPosition": "center"
-    }
-      },
-    "info-card#3": {
-        "props": {
-          "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png",
-          "isFullModeStyle": true,
-          "headline": "Black Friday",
-          "callToActionText": "Subscribe",
-          "textPosition": "center"
-        }
-      },
-    "info-card#4": {
-        "props": {
-          "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
-          "isFullModeStyle": true,
-          "headline": "Black Friday",
-          "callToActionText": "Subscribe",
-          "textPosition": "center"
-        }
-      },
-    "info-card#5": {
-        "props": {
-          "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png",
-          "isFullModeStyle": true,
-          "headline": "Black Friday",
-          "callToActionText": "Subscribe",
-          "textPosition": "center"
-        }
-    },
-    "info-card#6": {
-        "props": {
-          "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
-          "isFullModeStyle": true,
-          "headline": "Black Friday",
-          "callToActionText": "Subscribe",
-          "textPosition": "center"
-        }
-    }  
+  }, 
 
+  "image#brand2": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  }, 
+
+  "image#brand3": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  }, 
+
+  "image#brand4": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  }, 
+
+  "image#brand5": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  }, 
+
+  "image#brand6": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  }
 }
